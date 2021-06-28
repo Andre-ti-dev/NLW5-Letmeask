@@ -24,6 +24,11 @@
     "prettier"
   ],
   "rules": {
+    "react/jsx-one-expression-per-line": "off",
+    "object-curly-newline": "off",
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "arrow-parens": "off",
+    "react/jsx-props-no-spreading": "off",
     "react/react-in-jsx-scope": 0,
     "prettier/prettier": "error",
     "import/extensions": [
