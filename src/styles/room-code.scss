@@ -1,30 +1,43 @@
 .room-code {
   height: 40px;
   border-radius: 8px;
-  overflow: hidden;
 
   background: #FFF;
-  border: 1px solid #835afd;
+  border: 2px solid #835afd;
   cursor: pointer;
 
   display: flex;
   align-items: normal;
 
   div {
+    width: 40px;
     background: #835afd;
     padding: 0 12px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background 0.2s;
+  }
+
+  &:hover div {
+    background: #6F4BD8;
   }
 
   span {
+    width: 250px;
     display: block;
     align-self: center;
     flex: 1;
     padding: 0 16px 0 12px;
-    width: 240px;
     font-size: 14px;
     font-weight: 500;
+  }
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 750px) {
+  .room-code span {
+    display: none;
   }
 }

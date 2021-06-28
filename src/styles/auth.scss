@@ -140,3 +140,18 @@
     }
   }
 }
+
+/* RESPONSIVE */
+@media screen and (max-width: 900px) {
+  #page-auth {
+    flex-direction: column;
+
+    aside img {
+      width: 160px;
+    }
+
+    main {
+      padding: 30px 0;
+    }
+  }
+}

@@ -13,10 +13,28 @@
     cursor: pointer;
     border: 0;
 
-    transition: filter 0.2s;
+    img {
+      margin-right: 8px;
+    }
 
-    &:not(:disabled):hover {
-      filter: brightness(0.90);
+    &:not(.outlined) {
+      transition: background 0.2s;
+    }
+
+    &:not(:disabled):not(.outlined):hover {
+      background: #6F4BD8;
+    }
+
+    &.outlined {
+      background: #fff;
+      border: 1px solid #835afd;
+      color: #835afd;
+      transition: border-color, color 0.2s;
+    }
+
+    &.outlined:not(:disabled):hover {
+      border-color: #6F4BD8;
+      color: #6F4BD8;
     }
 
     &:disabled {

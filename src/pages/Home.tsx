@@ -30,14 +30,33 @@ export function Home() {
   async function handleJoinRoom(event: FormEvent) {
     event.preventDefault();
 
+    // const regExp = new RegExp('/^[\w.-]+$/');
+
     if (roomCode.trim() === '') {
       return;
     }
 
+    /*
+    if (regExp.test(roomCode.trim())) {
+      alert('Código de sala inválido');
+      return;
+    }
+    */
+
     const roomRef = await database.ref(`rooms/${roomCode}`).get();
 
     if (!roomRef.exists()) {
-      alert('Room does not exists.');
+      alert('Está sala não existe');
+      return;
+    }
+
+    if (roomRef.val().closedAt) {
+      alert('Essa sala foi encerrada');
+      return;
+    }
+
+    if (roomRef.val().authorId === user?.id) {
+      history.push(`/admin/rooms/${roomCode}`);
       return;
     }
 

@@ -16,6 +16,7 @@ export function RoomCode({ code }: RoomCodeProps) {
       type="button"
       className="room-code"
       onClick={copyRoomCodeToClipboard}
+      title="Copiar código da sala"
     >
       <div>
         <img src={copyImg} alt="Copy room code" />
