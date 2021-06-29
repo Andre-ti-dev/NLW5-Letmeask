@@ -9,6 +9,8 @@ Ele possui também uma area para o dono da sala dar destaque a uma pergunta, mar
 O projeto foi desenvolvido durante a Next Level Week 5 da Rocketseat com o instrutor Diego Fernandes, onde focamos inteiramente e React.js em conjunto com o Firebase, onde aprendemos a utilizar diversos recursos do React como os Hooks,
 ContextAPI bem como a criação de autenticação com conta Google através do Firebase Authentication e uso do banco Firebase Realtime Database como banco de dados da aplicação.
 
+O projeto está disponivel em [Letmeask](https://letmeask-e4f11.web.app/)
+
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
