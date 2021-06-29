@@ -28,6 +28,8 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Yarn](https://yarnpkg.com/) (Opcional).
 Você pode querer editar a aplicação para realizar testes e para isso irá precisar de um bom editor de código como o [VSCode](https://code.visualstudio.com/)
 
+Você também precisara criar uma cópia do arquivo ```.env.example``` para ```.env.local``` preenchendo com as informações da sua conta no Firebase. 
+
 ## 🚀 Rodando o projeto
 
 ```bash
