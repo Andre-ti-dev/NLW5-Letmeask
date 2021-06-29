@@ -1,4 +1,4 @@
-[![CAPA](https://raw.githubusercontent.com/Andre-ti-dev/NLW5-Letmeask/main/capa.png)]()
+[![CAPA](https://raw.githubusercontent.com/Andre-ti-dev/NLW5-Letmeask/master/capa.png)]()
 
 ## 💎 Sobre
 
@@ -43,7 +43,7 @@ $ npm install
 # Execute a aplicação em modo de desenvolvimento
 $ yarn dev
 # ou
-$ node run dev
+$ npm run dev
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 ```
