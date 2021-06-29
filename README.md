@@ -4,10 +4,12 @@
 
 O Letmeask foi construído com a finalidade de auxiliar na hora de responder perguntas durante uma live, nele é possível
 fazer perguntas em uma sala e dar like em perguntas para que o streamer possa ler e responder ao vivo.
+
 Ele possui também uma area para o dono da sala dar destaque a uma pergunta, marcar como respondida e apagar uma pergunta.
 
-O projeto foi desenvolvido durante a Next Level Week 5 da Rocketseat com o instrutor Diego Fernandes, onde focamos inteiramente e React.js em conjunto com o Firebase, onde aprendemos a utilizar diversos recursos do React como os Hooks,
-ContextAPI bem como a criação de autenticação com conta Google através do Firebase Authentication e uso do banco Firebase Realtime Database como banco de dados da aplicação.
+O projeto foi desenvolvido durante a Next Level Week 5 da Rocketseat com o instrutor Diego Fernandes, onde focamos inteiramente em React.js em conjunto com o Firebase.
+
+Durante o evento aprendemos a utilizar diversos recursos do React como os Hooks, criação de nossos próprios Hooks e ContextAPI bem como a criação de autenticação com conta Google através do Firebase Authentication e uso do banco Firebase Realtime Database como banco de dados da aplicação.
 
 O projeto está disponivel em [Letmeask](https://letmeask-e4f11.web.app/)
 
