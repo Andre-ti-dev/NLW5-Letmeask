@@ -146,8 +146,15 @@
   #page-auth {
     flex-direction: column;
 
-    aside img {
-      width: 160px;
+    aside {
+      justify-content: center;
+      align-items: center;
+      padding: 60px 70px;
+      text-align: center;
+
+      img {
+        width: 160px;
+      }
     }
 
     main {
@@ -155,3 +162,4 @@
     }
   }
 }
+
